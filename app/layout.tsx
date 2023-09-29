@@ -2,8 +2,8 @@ import type {Metadata} from "next";
 import React from "react";
 
 import "./styles/globals.scss";
-import Footer from "@/app/footer";
-import Navbar from "@/app/navbar";
+import Footer from "@/app/components/footer";
+import Navbar from "@/app/components/navbar";
 import {metadataBase} from "./metadata";
 
 export const metadata: Metadata = metadataBase;
